@@ -26,7 +26,10 @@ export default {
   },
   log () {
     console.log(`log at:${Date.now()}`)
-  }
+  },
+  onShow () {
+    console.log('Program Hided')
+  },
 }
 </script>
 
